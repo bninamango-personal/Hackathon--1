@@ -1,5 +1,6 @@
 def my_func(i: int):
-    return i * 2
+    return "result: " + str(i*520)
+
 
 def xdddd(xdddd):
     return "xddd"
@@ -7,4 +8,4 @@ def xdddd(xdddd):
 
 print("Hello from the main file")
 xdddd(0)
-print(my_func(4100))
+my_func(10)
